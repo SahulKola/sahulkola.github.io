@@ -29,7 +29,7 @@ export const Education: IEdu[] = [
     course: "Computer Science & Engineering",
     board: "Jawaharlal Nehru Technological University",
     location: "Hyderabad",
-    year: "2018-2022",
+    year: "2018 - 2022",
     percentage: "7.5",
   },
   {
@@ -39,7 +39,7 @@ export const Education: IEdu[] = [
     course: "Maths Physics Chemistry",
     board: "Board of Intermediate Education, TS.",
     location: "Warangal",
-    year: "2016-2018",
+    year: "2016 - 2018",
     percentage: "89%",
   },
   {
@@ -48,7 +48,7 @@ export const Education: IEdu[] = [
     degree: "Class 10th",
     board: "Board of Secondary Education, TS.",
     location: "Warangal",
-    year: "2015-2016",
+    year: "2015 - 2016",
     percentage: "9.5",
   },
 ];
@@ -92,7 +92,7 @@ export const workExp: IWorkExp[] = [
       "Gained hands-on experience working with major banks in the APAC region, enhancing digital banking solutions, ensuring seamless integrations.","Worked with backend developers, designers, and product managers to integrate frontend with backend APIs. Ensured smooth data flow and state management for better app performance.", 
       "Identified and resolved UI/UX issues by debugging layout inconsistencies and improving responsiveness. Implemented best practices for accessibility and cross-browser compatibility to deliver a seamless digital banking experience"
     ],
-    year: "Jan 2025 - Present"
+    year: "Jan 2024 - Present"
   }
 ];
 export interface IPortfolio {
