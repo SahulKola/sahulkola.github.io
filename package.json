@@ -7,8 +7,6 @@
     "serve:ssr:portfolio-angular": "node dist/apps/portfolio-angular/server/server.mjs",
     "deploy:react": "nx build portfolio-react --prod && npx gh-pages -d dist/apps/portfolio-react",
     "deploy:angular": "nx build portfolio-angular --prod && npx gh-pages -d dist/apps/portfolio-angular/browser --dest=v2"
-
-
   },
   "private": true,
   "dependencies": {
@@ -24,7 +22,8 @@
     "express": "^5.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "6.29.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.29.0",
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
   },
