@@ -2,8 +2,13 @@
   "name": "@sahulkola.github.io/source",
   "version": "0.0.0",
   "license": "MIT",
+  "homepage": "https://sahulkola.github.io",
   "scripts": {
-    "serve:ssr:portfolio-angular": "node dist/apps/portfolio-angular/server/server.mjs"
+    "serve:ssr:portfolio-angular": "node dist/apps/portfolio-angular/server/server.mjs",
+    "deploy:react": "nx build portfolio-react --prod && npx gh-pages -d dist/apps/portfolio-react",
+    "deploy:angular": "nx build portfolio-angular --prod && npx gh-pages -d dist/apps/portfolio-angular/browser --dest=v2"
+
+
   },
   "private": true,
   "dependencies": {

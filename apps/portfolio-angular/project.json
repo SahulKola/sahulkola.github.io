@@ -12,6 +12,7 @@
         "{options.outputPath}"
       ],
       "options": {
+        "baseHref": "/v2/",
         "outputPath": "dist/apps/portfolio-angular",
         "browser": "apps/portfolio-angular/src/main.ts",
         "polyfills": [
